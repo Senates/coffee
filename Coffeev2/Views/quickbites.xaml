@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Coffeev2.Views.quickbites"
+             Title="Quick Bites">
+    <StackLayout>
+        <Grid RowSpacing="0" ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="65"/>
+                <RowDefinition Height="110"/>
+                <RowDefinition Height="65"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="bagel.png" Grid.Row="0" Grid.RowSpan="3" Aspect="AspectFill" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <Label Grid.Row="0" Grid.Column="2" Text="Bagel" FontFamily="Bold" FontSize="30" TextColor="Black" Padding="5"/>
+            <Label Grid.Row="1" Grid.Column="2" Text="Freshly Baked Each Morning" FontFamily="Bold" FontSize="15" TextColor="Black"/>
+            <Label Grid.Row="2" Grid.Column="2" Text="$1.50" FontFamily="Bold" FontSize="25" TextColor="Black"/>
+        </Grid>
+        <Grid RowSpacing="0" ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="65"/>
+                <RowDefinition Height="110"/>
+                <RowDefinition Height="65"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="eggsbeni.png" Grid.Row="0" Grid.RowSpan="3" Aspect="AspectFill" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <Label Grid.Row="0" Grid.Column="2" Text="Bagel" FontFamily="Bold" FontSize="30" TextColor="Black" Padding="5"/>
+            <Label Grid.Row="1" Grid.Column="2" Text="Poached eggs iver bacon
+                   and buttered toasted english muffin, topped with hollandaise
+                   sause" FontFamily="Bold" FontSize="15" TextColor="Black"/>
+            <Label Grid.Row="2" Grid.Column="2" Text="$6.50" FontFamily="Bold" FontSize="25" TextColor="Black"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>
+    
+    

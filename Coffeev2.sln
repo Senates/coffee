@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffeev2.Android", "Coffeev2.Android\Coffeev2.Android.csproj", "{8E7127CE-9DFE-446A-BE1C-E8B819E0E795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffeev2", "Coffeev2\Coffeev2.csproj", "{954017EA-4850-4C27-A7E2-C1BC334CCB17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E7127CE-9DFE-446A-BE1C-E8B819E0E795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7127CE-9DFE-446A-BE1C-E8B819E0E795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7127CE-9DFE-446A-BE1C-E8B819E0E795}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8E7127CE-9DFE-446A-BE1C-E8B819E0E795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7127CE-9DFE-446A-BE1C-E8B819E0E795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7127CE-9DFE-446A-BE1C-E8B819E0E795}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{954017EA-4850-4C27-A7E2-C1BC334CCB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954017EA-4850-4C27-A7E2-C1BC334CCB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954017EA-4850-4C27-A7E2-C1BC334CCB17}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{954017EA-4850-4C27-A7E2-C1BC334CCB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954017EA-4850-4C27-A7E2-C1BC334CCB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954017EA-4850-4C27-A7E2-C1BC334CCB17}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86B832C2-6369-42C1-BDEE-1FE18643C3C1}
+	EndGlobalSection
+EndGlobal

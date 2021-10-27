@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Coffeev2.Views.ItemsPage"
+             xmlns:local="clr-namespace:Coffeev2.ViewModels"  
+             xmlns:model="clr-namespace:Coffeev2.Models"  
+             x:Name="BrowseItemsPage">
+
+    <StackLayout Spacing="1">
+
+        <Image Source="JulesCafe.png"  Margin="0,50,0,50"/>
+
+        <Button Text="Espresso" FontSize="20" BackgroundColor="White" TextColor="Black" 
+                Clicked="Button_Clicked"  BorderWidth="1" BorderColor="Black" Padding="0,20,0,20"></Button>
+        <Button Text="Hot Drinks" FontSize="20" BackgroundColor="White" TextColor="Black" 
+                Clicked="Button_Clicked_1" BorderWidth="1" BorderColor="Black" Padding="0,20,0,20"></Button>
+        <Button Text="Cold Drinks" FontSize="20" BackgroundColor="White" TextColor="Black" 
+                Clicked="Button_Clicked_2" BorderWidth="1" BorderColor="Black" Padding="0,20,0,20"></Button>
+        <Button Text="Quick Bites" FontSize="20" BackgroundColor="White" TextColor="Black" 
+                Clicked="Button_Clicked_3" BorderWidth="1" BorderColor="Black" Padding="0,20,0,20"></Button>
+
+
+    </StackLayout>
+</ContentPage>

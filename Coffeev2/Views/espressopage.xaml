@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Coffeev2.Views.espressopage"
+             Title="Espresso">
+    
+    <StackLayout>
+        <Button Text="Cafe Americano $2.50" FontSize="20" BackgroundColor="White" TextColor="Black"
+                BorderWidth="1" BorderColor="Black" Padding="0,20,0,20"></Button>
+        <Button Text="Cafe Latte $3.00" FontSize="20" BackgroundColor="White" TextColor="Black"
+                BorderWidth="1" BorderColor="Black" Padding="0,20,0,20"></Button>
+        <Button Text="Cappucino $3.50" FontSize="20" BackgroundColor="White" TextColor="Black"
+                BorderWidth="1" BorderColor="Black" Padding="0,20,0,20"></Button>
+    </StackLayout>
+</ContentPage>
